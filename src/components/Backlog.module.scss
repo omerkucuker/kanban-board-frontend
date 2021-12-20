@@ -1,0 +1,130 @@
+@import "mq";
+
+$font_type0: 700 37px/1.1891891891891893 "SF Pro Display", Helvetica, Arial,
+  serif;
+$font_type1: 16px/1.5 "SF Pro Text", Helvetica, Arial, serif;
+$font_type2: 14px/1.399999976158142 "SF Pro Text", Helvetica, Arial, serif;
+
+$border_type0: 1px solid rgb(255, 255, 255);
+
+$border_radius_type0: 16px 16px 16px 16px;
+$border_radius_type1: 8px 8px 8px 8px;
+$border_radius_type2: 2px 2px 2px 2px;
+
+.content_box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(39, 39, 39);
+  border-radius: $border_radius_type0;
+}
+.content_box_layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 404px;
+  flex-grow: 1;
+}
+.backlog {
+  font: $font_type0;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+}
+.backlog_layout {
+  flex: 1 0 auto;
+  margin: 24px 24px 0px;
+}
+.content_box_row {
+  display: flex;
+  flex: 0 1 136px;
+}
+.content_box1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(196, 64, 161);
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.08235294117647059);
+  border-radius: $border_radius_type1;
+}
+.content_box1_layout {
+  position: relative;
+  flex-grow: 1;
+  margin: 16px 24px 0px;
+}
+.twilio_integration {
+  font: $font_type1;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+}
+.twilio_integration_layout {
+  flex: 1 0 auto;
+  margin: 24px 24px 0px;
+}
+.content_box1_row {
+  display: flex;
+  flex: 0 1 72px;
+}
+.paragraph_body {
+  font: $font_type2;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+  opacity: 0.75;
+}
+.paragraph_body_layout {
+  flex-grow: 1;
+  margin: 8px 16px 24px 24px;
+}
+.content_box_row1 {
+  display: flex;
+  flex: 0 1 200px;
+}
+.content_box2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(107, 110, 206);
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.08235294117647059);
+  border-radius: $border_radius_type1;
+}
+.content_box2_layout {
+  position: relative;
+  flex-grow: 1;
+  margin: 16px 24px 24px;
+}
+.markdown_support {
+  font: $font_type1;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+}
+.markdown_support_layout {
+  flex: 1 0 auto;
+  margin: 24px 24px 0px;
+}
+.text_body {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type2;
+  color: rgb(255, 255, 255);
+  text-align: right;
+  letter-spacing: 0px;
+  opacity: 0.75;
+}
+.text_body_layout {
+  flex: 1 0 auto;
+  margin: 8px 23px 0px;
+}
+.content_box2_row {
+  display: flex;
+  flex: 0 1 84px;
+}
+.group {
+  display: flex;
+  border: $border_type0;
+  border-radius: $border_radius_type2;
+  font: $font_type2;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+  padding: 2px 8px 2px 8px;
+}
+.group_layout {
+  position: relative;
+  width: 88px;
+  min-width: 88px;
+  margin: 32px 0px 28px 24px;
+}
