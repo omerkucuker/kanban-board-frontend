@@ -1,11 +1,11 @@
 
 # Kanban Board Frontend
 
-Kanban Board Frontend uygulamasında tasarım olarak Figma ile oluşturulan template responsive şekilde projeye eklenmiştir.
-Serverdan alınan veriler React ile ön yüze taşınmış, Axios kütüphanesiyle HTTP işlemleri yapılmıştır. Drag and Drop işleminde ise react-beautiful-dnd kütüphanesi kullanıldı.
+The template created with Figma as a design in the Kanban Board Frontend application was responsively added to the project.
+The data received from the server was moved to the front with React, HTTP operations were made with the Axios library. The react-beautiful-dnd library was used in the Drag and Drop process.
 
 
-## Kullanılan Teknolojiler
+## Used technologies
 
 **Client:** React
 
