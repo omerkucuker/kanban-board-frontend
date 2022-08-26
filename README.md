@@ -9,7 +9,7 @@ The data received from the server was moved to the front with React, HTTP operat
 
 **Client:** ReactJS
 
-**Packets:** react-beautiful-dnd, Axios
+**Packets:** react-beautiful-dnd, Axios, antd, mui, bootsrap
 
 
   
