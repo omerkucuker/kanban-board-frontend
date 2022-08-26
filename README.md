@@ -7,7 +7,7 @@ The data received from the server was moved to the front with React, HTTP operat
 
 ## Used technologies
 
-**Client:** React
+**Client:** ReactJS
 
 **Packets:** react-beautiful-dnd, Axios
 
